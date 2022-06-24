@@ -1,0 +1,57 @@
+<!doctype html>
+<head>
+<style>
+#demotext {
+color: transparent;
+background: #666666;
+-webkit-background-clip: text;
+-moz-background-clip: text;
+background-clip: text;
+text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+font-size: 40px;
+}
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+.right {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: right;
+}
+body{
+background: #e7e5e4;}
+#borderDemo2 {
+border: 17px groove #1900FF;
+border-radius: 20px;
+}
+</style>
+<title>DogBox v1.0</title>
+<meta charset=utf-8>
+</head>
+
+<body>
+<div class ="center" id="borderDemo">
+<div id="demotext">DogBox v1.0</div>
+<p>
+        <button>
+        <a href="/red/">Red</a>
+        </button>
+        <button>
+        <a href="/green/">Green</a>
+        </button>
+        <button>
+        <a href="/blue/">Blue</a>
+        </button>
+
+        <img src="{{url_for('static', filename='rotatingPrim.gif')}}" align="middle" />
+</div>
+</body>
+<footer>
+<div class="right" id="credits">
+theme by DasRex®
+</div>
+</footer>
