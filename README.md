@@ -13,7 +13,7 @@ port forward port 80 on your vps through 'ufw allow 80' or some other means if y
 
 once you have a website up and running with buttons you can press, go into SL and copy and paste the script from the lsl folder into a default prim with a blank texture
 click to open the url it pastes in the chat when you save and run the script, copy the url without the %20 at the end, and you'll be pasting that
-into the '__init__.py' script as one of the variables
+into the '\_\_init\_\_.py' script as one of the variables
 
-once you 'nano __init__.py' and place the SLURL variable for url, just save it with ctrl-s, write it with ctrl-o, and close it with ctrl-x
+once you 'nano \_\_init\_\_.py' and place the SLURL variable for url, just save it with ctrl-s, write it with ctrl-o, and close it with ctrl-x
 then, run the gunicorn process on ur file again and u should have it up and running and fully functional
