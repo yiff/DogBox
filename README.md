@@ -1,6 +1,10 @@
 # DogBox
 Remote Prim Manipulation project for Second Life
 
+first time seeing this was from my friend:
+https://github.com/felix-two-tone/indusys
+lots of code copied from him
+
 installation/setup:
 set up a flask site on your linux vps with this video
 https://youtu.be/KgAtZ1LlNiQ
