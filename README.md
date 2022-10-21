@@ -1,5 +1,6 @@
 # DogBox
 Remote Prim Manipulation project for Second Life
+A template for LSL web interfaces and anything to do with clicking a button on a website and making something happen in an LSL script. This will get you started, on both the LSL script and the website.
 
 first time seeing this was from my friend:
 https://github.com/felix-two-tone/indusys
